@@ -1,0 +1,53 @@
+{
+    "chart_title": "Total Judges Score From Week 4 of Dancing with the Stars by Contestant",
+    "data_points": [
+        {
+            "label": "Maura Higgins and Mark Ballas",
+            "value": 25
+        },
+        {
+            "label": "Ezra Frech and Daniella Karagach",
+            "value": 24
+        },
+        {
+            "label": "Harry Shum Jr. and Jenna Johnson",
+            "value": 24
+        },
+        {
+            "label": "Jenna Dewan and Val Chmerkovskiy",
+            "value": 24
+        },
+        {
+            "label": "Amber Glenn and Pasha Pashkov",
+            "value": 23
+        },
+        {
+            "label": "Ciara Miller and Brandon Armstrong",
+            "value": 21
+        },
+        {
+            "label": "Tyler Cameron and Sharna Burgess",
+            "value": 21
+        },
+        {
+            "label": "Jackson Olson and Emma Slater",
+            "value": 21
+        },
+	{
+            "label": "Julia Stiles and Ezra Sosa",
+            "value": 21
+        },
+	{
+            "label": "Tatyana Ali and Jan Ravnik",
+            "value": 20
+        },
+	{
+            "label": "Connor Wood and Rylee Arnold",
+            "value": 19
+        },
+	{
+            "label": "Guillermo Rodriguez and Witney Carson",
+            "value":13
+        }
+    ]
+}
