@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # PAGE TITLE AND USER DIRECTIONS
-st.title("Data Collection Survey 📝")
+st.title("Dancing with the Stars Fan Survey")
 st.write("Please fill out the form below to add your data to the dataset.")
 
 # DATA INPUT FORM
@@ -22,8 +22,9 @@ st.write("Please fill out the form below to add your data to the dataset.")
 with st.form("survey_form"):
     # Create text input widgets for the user to enter data.
     # The first argument is the label that appears above the input box.
-    category_input = st.text_input("Enter a category:")
-    value_input = st.text_input("Enter a corresponding value:")
+    Category = st.text_input("Who was your favorite dancer this week?")
+    Value = st.text_input("What score out of 30 would you give them? (type a number)")
+
 
     # The submit button for the form.
     submitted = st.form_submit_button("Submit Data")
@@ -37,7 +38,9 @@ with st.form("survey_form"):
         #    - You can use pandas or Python's built-in 'csv' module.
         #    - Make sure to open the file in 'append' mode ('a').
         #    - Don't forget to add a newline character '\n' at the end.
-        
+        file = open("data.csv", "a")
+        file.write(category_input + "," + value_input + "\n")
+        file.close()
         st.success("Your data has been submitted!")
         st.write(f"You entered: **Category:** {category_input}, **Value:** {value_input}")
 
